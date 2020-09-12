@@ -1,0 +1,36 @@
+body{
+	background-color: #B3B3B3;
+	font-size: 150%;
+	margin: 4%;
+}
+header{
+	background-color: #666666;
+	text-align: center;
+	padding: 15px; /* space btw the bottom of the links and the border */
+}
+h1{
+	color: #ffffff;
+}
+h2{
+	color: #666666;
+	background:#00B7ea; 
+}
+summary{
+	font-style: normal;
+}
+details{
+	font-style: italic;
+}
+section{
+	width: 30%;
+	display: inline-block;
+	float: left; /* all heads are on the same line, on top.*/
+	margin-right: 2%;
+}
+footer{
+	background: #666666;
+	clear: both; /*we're going to use clear: both, which means don't let anything float on either side of me.*/
+}
+img{
+	width: 75px;
+}

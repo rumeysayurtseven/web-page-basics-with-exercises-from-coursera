@@ -1,0 +1,38 @@
+body{
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding: 1%;
+}
+nav{
+	box-sizing: border-box;
+	border:1px solid #06425c;
+	color: #06425c;
+	background-color: #486b02;
+	overflow: auto;
+	padding-left: 20px;
+}
+nav a{
+	box-sizing: border-box;
+	display:inline-block;
+	line-height: 50px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #486b02;
+	text-decoration: none;
+	padding: 1% 5%;
+	border-radius: 25px;
+	margin: 1% 5% 1% 0;
+}
+nav a:hover{
+	color: #000000;
+	border-radius: 0;
+}
+.current{
+	background-color: #800000;
+}
+section{
+	display: inline-block;
+	width: 70%;
+	height: 100vh;
+	overflow: auto;
+}

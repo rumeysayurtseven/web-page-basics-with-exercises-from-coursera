@@ -1,0 +1,82 @@
+header{
+	background: #B3B3B3;
+}
+h1{
+	color: #FFFFFF;
+	text-transform: uppercase; 
+	text-align: center;
+}
+h2{
+	color: #0000FF;
+	text-transform: uppercase; 
+}
+link{
+	color: #666666;
+	background: #00B7EA
+}
+
+section{
+	background-color: #FF00FF;
+}
+img{
+	display: block;
+}
+
+body{
+	margin:auto;
+	padding: 15px;
+}
+header{
+	background-color: #0000CC;
+	background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+	padding: 20px;
+}
+nav a{
+
+	display: inline-block;
+	margin: 0 auto;
+	border-radius: 5px; /* to round the borders.*/
+	text-decoration: none;
+	padding: 20px;
+	box-sizing: border-box;
+	border: none;
+	background-color: #0000CC;
+	color: #ffffff;
+	height: 20px;
+	width: 20%;
+	text-align: center;
+}
+h1{
+	font-color:#B3B3B3;
+	font-size: 250%;
+}
+.active{
+	background-color: #ffd700;
+	font-color:#8B4513;
+}
+.left{
+
+	background-color:#006400;
+	display: block;
+	border: 25px solid transparent;
+    padding: 5px;
+    background-image: #DAA520;
+    text-align: left;
+    border-image-outset: 3px;
+    float: left;
+    border-image: url(https://commons.wikimedia.org/wiki/File%3AUltimate_Frisbee%2C_Jul_2009_-_17.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Ultimate_Frisbee%2C_Jul_2009_-_19.jpg) 20% round;
+}
+	img{
+		width: 200px;
+		height: 200px;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border:3px solid;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.right{
+		background-color: #FFFFFF;
+		font-size: 100%;
+	}

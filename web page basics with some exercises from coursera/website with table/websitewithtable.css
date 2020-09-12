@@ -1,0 +1,120 @@
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font:bold;
+	color: #ffffff;
+}
+header{
+	background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+	margin: 20px;
+	padding: 50px;
+	text-align: center;
+}
+.active{
+	background-color: #00ffff;
+}
+nav{
+	display: inline-block;
+	text-align: center;
+}
+nav a{
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border:1px solid #ffffff;
+	padding: 15px;
+	margin-left: 20px;
+	border-radius: 5px;
+	width: 100px;
+}
+.left{
+	display: block;
+	float: left;
+	background-color:#006400;
+	border: 25px solid transparent;
+	text-align: left;
+}
+img{ 
+	width: 200px;
+	height: 130px;
+	border: 3px solid;
+	display: block;
+	margin-bottom: 2px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.text{
+	text-align: left;
+	font-size: 20px;
+	display: inline;
+}
+.mytable{
+	text-align: center;
+}
+table{
+
+	box-sizing: border-box;
+	border-collapse: collapse;
+ 	border: 2px solid rgb(200,200,200);
+  	letter-spacing: 1px;
+ 	font-size: 0.8rem;
+    border-collapse: collapse;
+    table-layout: fixed;
+ }
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
+}
+.team{
+	display: inline-block;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+/* aside{
+	background-color: #486b02;
+	display: block;
+}
+background-color:#006400;
+	display: block;
+	border: 25px solid transparent;
+    padding: 5px;
+    background-image: #DAA520;
+    text-align: left;
+    border-image-outset: 3px;
+    float: left;
+
+    aside a{
+	
+	background-color: #486b02;
+	border: 2px solid #06425c;
+	overflow:auto;
+	border-image-outset: 3px;
+	padding: 5px;
+	float: left;
+	display: block;
+	margin: 10px 0 10px 5px;
+	text-align: left;
+}*/

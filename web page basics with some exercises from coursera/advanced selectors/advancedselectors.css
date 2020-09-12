@@ -1,0 +1,14 @@
+nav a{  
+	/* I've used the child element of, actually, just kind of the descendant of, hey, all the links that are in the navigation bar, I want to style differently, I wanna give them a different background color, a different width, things like that.*/
+	text-align: center;
+	color: #FFFFFF;
+	background: #0000FF;
+	display: inline-block;
+	width: 20%;
+	margin-right: 2%;
+}
+.cuurent{
+	color:#000000;
+	background:#0fff00;
+	text-transform: uppercase;
+}
